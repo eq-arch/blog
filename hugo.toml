@@ -1,0 +1,46 @@
+baseURL = 'https://yourdomain.com'
+languageCode = 'zh-CN'
+title = '我的博客'
+theme = 'PaperMod'
+
+[params]
+  author = '作者'
+  description = '记录生活与思考'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[params.profileMode]
+  enabled = true
+  title = "你好 👋"
+  subtitle = "这里是我的数字花园"
+  imageUrl = ""
+  imageTitle = ""
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:hello@example.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
